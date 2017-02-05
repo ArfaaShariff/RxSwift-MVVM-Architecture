@@ -11,7 +11,7 @@ DO
   - Use Observables as opposed to Drivers when working with anything that isn't UI related.
   
 DON'T
-  - Never subscribe to Observable or Drivers in your view models. View models should only transform Observables and provide output as Observable or Drivers.
+  - Ever Subscribe to Observable or Drivers in your view models. View models should only transform Observables and provide output as Observable or Drivers.
   
 # Contributing ❤️
 There's a reason this is open source, we'd love for you to throw your ideas into here!
