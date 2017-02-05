@@ -114,12 +114,13 @@
 		024CFFB91E4773A8009050C9 /* rxmvvm */ = {
 			isa = PBXGroup;
 			children = (
-				024CFFBA1E4773A8009050C9 /* AppDelegate.swift */,
-				024CFFBC1E4773A8009050C9 /* ViewController.swift */,
-				024CFFBE1E4773A8009050C9 /* Main.storyboard */,
-				024CFFC11E4773A8009050C9 /* Assets.xcassets */,
-				024CFFC31E4773A8009050C9 /* LaunchScreen.storyboard */,
-				024CFFC61E4773A8009050C9 /* Info.plist */,
+				024CFFEA1E477565009050C9 /* di */,
+				024CFFED1E4775D5009050C9 /* application */,
+				024CFFEB1E477585009050C9 /* services */,
+				024CFFE91E47755D009050C9 /* views */,
+				024CFFEC1E4775B3009050C9 /* storyboards */,
+				024CFFEE1E47764A009050C9 /* controllers */,
+				024CFFE81E477552009050C9 /* viewmodels */,
 			);
 			path = rxmvvm;
 			sourceTree = "<group>";
@@ -140,6 +141,61 @@
 				024CFFDC1E4773A9009050C9 /* Info.plist */,
 			);
 			path = rxmvvmUITests;
+			sourceTree = "<group>";
+		};
+		024CFFE81E477552009050C9 /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = viewmodels;
+			sourceTree = "<group>";
+		};
+		024CFFE91E47755D009050C9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				024CFFBC1E4773A8009050C9 /* ViewController.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		024CFFEA1E477565009050C9 /* di */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = di;
+			sourceTree = "<group>";
+		};
+		024CFFEB1E477585009050C9 /* services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
+		024CFFEC1E4775B3009050C9 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				024CFFC31E4773A8009050C9 /* LaunchScreen.storyboard */,
+				024CFFBE1E4773A8009050C9 /* Main.storyboard */,
+			);
+			name = storyboards;
+			sourceTree = "<group>";
+		};
+		024CFFED1E4775D5009050C9 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				024CFFBA1E4773A8009050C9 /* AppDelegate.swift */,
+				024CFFC11E4773A8009050C9 /* Assets.xcassets */,
+				024CFFC61E4773A8009050C9 /* Info.plist */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+		024CFFEE1E47764A009050C9 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 		39A389FB15FCB55339101408 /* Pods */ = {
