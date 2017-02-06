@@ -6,7 +6,15 @@ target 'rxmvvm' do
   use_frameworks!
 
   # Pods for rxmvvm
-
+  pod 'RxSwift',    '~> 3.0'
+  pod 'RxCocoa',    '~> 3.0'
+  pod 'Moya', '8.0.2'
+  pod 'Moya/RxSwift'
+  pod 'Swinject', '2.0.0'
+  pod 'SwinjectStoryboard', '1.0.0'
+  pod 'R.swift'
+  pod 'SwiftyBeaver'
+  
   target 'rxmvvmTests' do
     inherit! :search_paths
     # Pods for testing
