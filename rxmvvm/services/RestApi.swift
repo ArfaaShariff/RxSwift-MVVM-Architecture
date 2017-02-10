@@ -12,24 +12,24 @@ import RxSwift
 import Alamofire
 
 
-enum MyService {
-    case showDetails
+enum RestApi {
+    case getDetails
 }
 
-extension MyService: TargetType {
+extension RestApi: TargetType {
     //dummy url to get json
     public var baseURL: URL { return URL(string: "http://jsonplaceholder.typicode.com")! }
     
     var path: String {
         switch self {
-        case .showDetails:
+        case .getDetails:
             return "/posts"
         }
     }
     
     var method: Moya.Method {
         switch self {
-        case .showDetails:
+        case .getDetails:
             return .get
             
         }
@@ -37,22 +37,22 @@ extension MyService: TargetType {
     
     var parameters: [String: Any]? {
         switch self {
-        case .showDetails:
+        case .getDetails:
             return nil
         }
     }
     
     var parameterEncoding: ParameterEncoding {
         switch self {
-        case .showDetails:
-            return URLEncoding.default 
+        case .getDetails:
+            return URLEncoding.default
             
         }
     }
     
     var sampleData: Data {
         switch self {
-        case .showDetails:
+        case .getDetails:
             return "[{\"userId\": \"1\", \"Title\": \"Title String\", \"Body\": \"Body String\"}]".data(using: String.Encoding.utf8)!
         }
     }
