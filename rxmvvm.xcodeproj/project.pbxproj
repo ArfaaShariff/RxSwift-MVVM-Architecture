@@ -14,6 +14,9 @@
 		024CFFC51E4773A8009050C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024CFFC31E4773A8009050C9 /* LaunchScreen.storyboard */; };
 		024CFFD01E4773A9009050C9 /* rxmvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CFFCF1E4773A9009050C9 /* rxmvvmTests.swift */; };
 		024CFFDB1E4773A9009050C9 /* rxmvvmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CFFDA1E4773A9009050C9 /* rxmvvmUITests.swift */; };
+		181A23CE1E4D9B99003AF0AD /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A23CD1E4D9B99003AF0AD /* SampleModel.swift */; };
+		181A23DD1E4DCB48003AF0AD /* RestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A23DC1E4DCB48003AF0AD /* RestApi.swift */; };
+		181A23DF1E4DD96B003AF0AD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A23DE1E4DD96B003AF0AD /* Post.swift */; };
 		59C1ED903AC6B278FF55D971 /* Pods_rxmvvmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF33CBBC466C0E3FE4D4511 /* Pods_rxmvvmTests.framework */; };
 		A38A25126F35EEDE28D07877 /* Pods_rxmvvmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DE2D2A405FA0D5154E94B7 /* Pods_rxmvvmUITests.framework */; };
 		A5F793CF0519F52317AA241F /* Pods_rxmvvm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D229B4576BF2954B1805ED7 /* Pods_rxmvvm.framework */; };
@@ -50,6 +53,9 @@
 		024CFFD61E4773A9009050C9 /* rxmvvmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rxmvvmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		024CFFDA1E4773A9009050C9 /* rxmvvmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rxmvvmUITests.swift; sourceTree = "<group>"; };
 		024CFFDC1E4773A9009050C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181A23CD1E4D9B99003AF0AD /* SampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleModel.swift; path = viewmodels/SampleModel.swift; sourceTree = "<group>"; };
+		181A23DC1E4DCB48003AF0AD /* RestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestApi.swift; path = services/RestApi.swift; sourceTree = "<group>"; };
+		181A23DE1E4DD96B003AF0AD /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = viewmodels/Post.swift; sourceTree = "<group>"; };
 		18DE2D2A405FA0D5154E94B7 /* Pods_rxmvvmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxmvvmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D229B4576BF2954B1805ED7 /* Pods_rxmvvm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxmvvm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B38B55D4FA4B3DDFA1DA1F /* Pods-rxmvvm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxmvvm.release.xcconfig"; path = "Pods/Target Support Files/Pods-rxmvvm/Pods-rxmvvm.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +152,8 @@
 		024CFFE81E477552009050C9 /* viewmodels */ = {
 			isa = PBXGroup;
 			children = (
+				181A23CD1E4D9B99003AF0AD /* SampleModel.swift */,
+				181A23DE1E4DD96B003AF0AD /* Post.swift */,
 			);
 			name = viewmodels;
 			sourceTree = "<group>";
@@ -168,6 +176,7 @@
 		024CFFEB1E477585009050C9 /* services */ = {
 			isa = PBXGroup;
 			children = (
+				181A23DC1E4DCB48003AF0AD /* RestApi.swift */,
 			);
 			name = services;
 			sourceTree = "<group>";
@@ -503,7 +512,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				024CFFBD1E4773A8009050C9 /* ViewController.swift in Sources */,
+				181A23CE1E4D9B99003AF0AD /* SampleModel.swift in Sources */,
 				024CFFBB1E4773A8009050C9 /* AppDelegate.swift in Sources */,
+				181A23DD1E4DCB48003AF0AD /* RestApi.swift in Sources */,
+				181A23DF1E4DD96B003AF0AD /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

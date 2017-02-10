@@ -14,6 +14,9 @@ target 'rxmvvm' do
   pod 'SwinjectStoryboard', '1.0.0'
   pod 'R.swift'
   pod 'SwiftyBeaver'
+  pod 'Moya-ObjectMapper'
+  pod 'Moya-ObjectMapper/RxSwift'
+
   
   target 'rxmvvmTests' do
     inherit! :search_paths
