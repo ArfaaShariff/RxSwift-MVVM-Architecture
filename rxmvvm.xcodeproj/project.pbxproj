@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		024CFFBB1E4773A8009050C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CFFBA1E4773A8009050C9 /* AppDelegate.swift */; };
-		024CFFBD1E4773A8009050C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CFFBC1E4773A8009050C9 /* ViewController.swift */; };
-		024CFFC01E4773A8009050C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024CFFBE1E4773A8009050C9 /* Main.storyboard */; };
-		024CFFC21E4773A8009050C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 024CFFC11E4773A8009050C9 /* Assets.xcassets */; };
-		024CFFC51E4773A8009050C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024CFFC31E4773A8009050C9 /* LaunchScreen.storyboard */; };
 		024CFFD01E4773A9009050C9 /* rxmvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CFFCF1E4773A9009050C9 /* rxmvvmTests.swift */; };
 		024CFFDB1E4773A9009050C9 /* rxmvvmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CFFDA1E4773A9009050C9 /* rxmvvmUITests.swift */; };
+		187DD0651E4C855A00E675F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DD0641E4C855A00E675F2 /* AppDelegate.swift */; };
+		187DD0671E4C856100E675F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187DD0661E4C856100E675F2 /* Assets.xcassets */; };
+		187DD0691E4C856E00E675F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DD0681E4C856E00E675F2 /* ViewController.swift */; };
+		187DD06C1E4C858500E675F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187DD06A1E4C858500E675F2 /* LaunchScreen.storyboard */; };
+		187DD06F1E4C858F00E675F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187DD06D1E4C858F00E675F2 /* Main.storyboard */; };
 		59C1ED903AC6B278FF55D971 /* Pods_rxmvvmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF33CBBC466C0E3FE4D4511 /* Pods_rxmvvmTests.framework */; };
 		A38A25126F35EEDE28D07877 /* Pods_rxmvvmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DE2D2A405FA0D5154E94B7 /* Pods_rxmvvmUITests.framework */; };
 		A5F793CF0519F52317AA241F /* Pods_rxmvvm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D229B4576BF2954B1805ED7 /* Pods_rxmvvm.framework */; };
@@ -38,11 +38,6 @@
 
 /* Begin PBXFileReference section */
 		024CFFB71E4773A8009050C9 /* rxmvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rxmvvm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		024CFFBA1E4773A8009050C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		024CFFBC1E4773A8009050C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		024CFFBF1E4773A8009050C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		024CFFC11E4773A8009050C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		024CFFC41E4773A8009050C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		024CFFC61E4773A8009050C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		024CFFCB1E4773A9009050C9 /* rxmvvmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rxmvvmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		024CFFCF1E4773A9009050C9 /* rxmvvmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rxmvvmTests.swift; sourceTree = "<group>"; };
@@ -50,6 +45,11 @@
 		024CFFD61E4773A9009050C9 /* rxmvvmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rxmvvmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		024CFFDA1E4773A9009050C9 /* rxmvvmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rxmvvmUITests.swift; sourceTree = "<group>"; };
 		024CFFDC1E4773A9009050C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187DD0641E4C855A00E675F2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = application/AppDelegate.swift; sourceTree = "<group>"; };
+		187DD0661E4C856100E675F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = application/Assets.xcassets; sourceTree = "<group>"; };
+		187DD0681E4C856E00E675F2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = views/ViewController.swift; sourceTree = "<group>"; };
+		187DD06B1E4C858500E675F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = storyboards/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187DD06E1E4C858F00E675F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = storyboards/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18DE2D2A405FA0D5154E94B7 /* Pods_rxmvvmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxmvvmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D229B4576BF2954B1805ED7 /* Pods_rxmvvm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxmvvm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B38B55D4FA4B3DDFA1DA1F /* Pods-rxmvvm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxmvvm.release.xcconfig"; path = "Pods/Target Support Files/Pods-rxmvvm/Pods-rxmvvm.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		024CFFE91E47755D009050C9 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				024CFFBC1E4773A8009050C9 /* ViewController.swift */,
+				187DD0681E4C856E00E675F2 /* ViewController.swift */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -175,8 +175,8 @@
 		024CFFEC1E4775B3009050C9 /* storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				024CFFC31E4773A8009050C9 /* LaunchScreen.storyboard */,
-				024CFFBE1E4773A8009050C9 /* Main.storyboard */,
+				187DD06D1E4C858F00E675F2 /* Main.storyboard */,
+				187DD06A1E4C858500E675F2 /* LaunchScreen.storyboard */,
 			);
 			name = storyboards;
 			sourceTree = "<group>";
@@ -184,8 +184,8 @@
 		024CFFED1E4775D5009050C9 /* application */ = {
 			isa = PBXGroup;
 			children = (
-				024CFFBA1E4773A8009050C9 /* AppDelegate.swift */,
-				024CFFC11E4773A8009050C9 /* Assets.xcassets */,
+				187DD0661E4C856100E675F2 /* Assets.xcassets */,
+				187DD0641E4C855A00E675F2 /* AppDelegate.swift */,
 				024CFFC61E4773A8009050C9 /* Info.plist */,
 			);
 			name = application;
@@ -337,9 +337,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				024CFFC51E4773A8009050C9 /* LaunchScreen.storyboard in Resources */,
-				024CFFC21E4773A8009050C9 /* Assets.xcassets in Resources */,
-				024CFFC01E4773A8009050C9 /* Main.storyboard in Resources */,
+				187DD06F1E4C858F00E675F2 /* Main.storyboard in Resources */,
+				187DD0671E4C856100E675F2 /* Assets.xcassets in Resources */,
+				187DD06C1E4C858500E675F2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,8 +502,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				024CFFBD1E4773A8009050C9 /* ViewController.swift in Sources */,
-				024CFFBB1E4773A8009050C9 /* AppDelegate.swift in Sources */,
+				187DD0691E4C856E00E675F2 /* ViewController.swift in Sources */,
+				187DD0651E4C855A00E675F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,20 +539,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		024CFFBE1E4773A8009050C9 /* Main.storyboard */ = {
+		187DD06A1E4C858500E675F2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				024CFFBF1E4773A8009050C9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		024CFFC31E4773A8009050C9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				024CFFC41E4773A8009050C9 /* Base */,
+				187DD06B1E4C858500E675F2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		187DD06D1E4C858F00E675F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187DD06E1E4C858F00E675F2 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
